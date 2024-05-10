@@ -27,6 +27,10 @@ nodejs 18.19.0
 use lib "yarn"
 yarn
 
+## Variáveis de ambiente
+
+Use como base o arquivo ".env.ts.exemple" para criar o arquiva ".env.ts" na raiz do projeto.
+
 ## Executar Servidor de Desenvolvimento
 
 yarn start
