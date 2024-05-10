@@ -45,7 +45,7 @@ yarn release
 
 ## Download APK
 
-/apk/v1-Lista-compras.apk
+[/apk/v1-Lista-compras.apk](https://github.com/Cleudeir/organizador-de-compras/blob/main/apk/v1-Lista-compras.apk)
 
 # Exemplo
 
