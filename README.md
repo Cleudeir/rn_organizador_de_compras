@@ -31,6 +31,10 @@ yarn
 
 yarn start
 
+## Codigo
+
+/src
+
 ## Criar APK
 
 yarn release
