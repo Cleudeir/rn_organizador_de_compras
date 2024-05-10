@@ -6,7 +6,7 @@
 
 ## Problemática
 
-Um problema comum que enfrento no dia a dia é não gostar de ficar muito tempo no supermercado. Com a lista em mãos, acabo indo e voltando no mesmo setor do supermercado por não ter uma lista ordenada.
+É comum que no dia a dia tenhamos que ir ao supermercado, contudo não é tarefa prazerosa para maioria. Com uma lista não ordenada em mãos acabamos por ir e voltar no mesmo setor.
 
 ## Solução
 
