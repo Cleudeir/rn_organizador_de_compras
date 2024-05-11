@@ -29,7 +29,7 @@ yarn
 
 ## Variáveis de ambiente
 
-Use como base o arquivo ".env.ts.exemple" para criar o arquiva ".env.ts" na raiz do projeto.
+Use como base o arquivo ".env.ts.exemple" para criar o arquivo ".env.ts" na raiz do projeto.
 
 ## Executar Servidor de Desenvolvimento
 
