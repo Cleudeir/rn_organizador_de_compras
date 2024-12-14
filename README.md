@@ -1,8 +1,8 @@
 
-                # Contents.json                
-                ## project structure
-                ```                    
-                rn_organizador_de_compras/
+# rn_organizador_de_compras                
+## project structure
+```                    
+rn_organizador_de_compras/
     package-lock.json
     README.md
     jest.config.js
@@ -50,7 +50,7 @@
                 AppIcon.appiconset/
                     Contents.json                
                 ```
-                ## Sumário do Projeto `listadecompras`
+## Sumário do Projeto
 
 **Objetivo:** Criar um aplicativo móvel (Android e iOS) para gerenciamento de listas de compras, permitindo a criação, edição e organização de itens em categorias, possivelmente com integração a um serviço de categorização externa (Gemini).  A persistência de dados é feita via AsyncStorage.
 
