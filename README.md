@@ -1,52 +1,65 @@
-# IMERSÂO ALURA-AI-GOOGLE
 
-----
+                # Contents.json                
+                ## project structure
+                ```                    
+                rn_organizador_de_compras/
+    package-lock.json
+    README.md
+    jest.config.js
+    index.js
+    tsconfig.json
+    package.json
+    yarn.lock
+    App.tsx
+    react-native.config.js
+    app.json
+    babel.config.js
+    metro.config.js
+    Gemfile
+    src/
+        assets/
+            Categorizada.png
+            Lista.png
+            listToCategoria.gif
+        services/
+            Gemini.ts
+        screens/
+            TodoScreen.tsx
+            CategoryScreen.tsx
+    android/
+    apk/
+        v1-Lista-compras.apk
+    ios/
+        Podfile
+        listadecomprasTests/
+            listadecomprasTests.m
+            Info.plist
+        listadecompras.xcodeproj/
+            project.pbxproj
+            xcshareddata/
+                xcschemes/
+                    listadecompras.xcscheme
+        listadecompras/
+            AppDelegate.mm
+            LaunchScreen.storyboard
+            main.m
+            Info.plist
+            AppDelegate.h
+            Images.xcassets/
+                Contents.json
+                AppIcon.appiconset/
+                    Contents.json                
+                ```
+                ## Sumário do Projeto `listadecompras`
 
-# Objetivo
+**Objetivo:** Criar um aplicativo móvel (Android e iOS) para gerenciamento de listas de compras, permitindo a criação, edição e organização de itens em categorias, possivelmente com integração a um serviço de categorização externa (Gemini).  A persistência de dados é feita via AsyncStorage.
 
-## Problemática
+**Dependências:** `@react-native-community/async-storage`, `@react-navigation`, `react-native-gesture-handler`, `react-native-reanimated`, `react-native-safe-area-context`, `react-native-screens`, `@babel`, `@react-native`, `eslint`, `jest`, `prettier`, `typescript`.
 
-É comum que no dia a dia tenhamos que ir ao supermercado, contudo não é tarefa prazerosa para maioria. Com uma lista não ordenada em mãos acabamos por ir e voltar no mesmo setor.
+**Tecnologias:** React Native, TypeScript, Jest (testes), Babel,  npm.
 
-## Solução
+**Arquitetura:** Baseada em componentes React Native, com navegação via React Navigation (stacks e tabs).  Utiliza AsyncStorage para armazenamento local de dados. A lógica de categorização de itens se integra com uma API externa (Gemini).
 
-Criei um aplicativo que permite ao usuário adicionar os itens e solicitar ao Gemini que os ordene.
-
-# Começando
-APP REACT NATIVE 
-## Dependência de Linguagem
-
-use lib "asdf"
-
-java temurin-17.0.6+10
-
-nodejs 18.19.0
-
-## Dependência do Projeto
-
-use lib "yarn"
-yarn
-
-## Variáveis de ambiente
-
-Use como base o arquivo ".env.ts.exemple" para criar o arquivo ".env.ts" na raiz do projeto.
-
-## Executar Servidor de Desenvolvimento
-
-yarn start
-
-## Codigo
-
-/src
-
-## Criar APK
-
-yarn release
-
-## Download APK
-
-[/apk/v1-Lista-compras.apk](https://github.com/Cleudeir/organizador-de-compras/blob/main/apk/v1-Lista-compras.apk)
-
-# Exemplo
-
-![List To Category GIF](/src/assets/listToCategoria.gif)
+**Pipeline:**  (Detalhes não fornecidos, mas provavelmente inclui scripts npm para build, testes e potencialmente deploy para lojas de aplicativos.)
+                
+                
